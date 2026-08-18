@@ -62,6 +62,15 @@ img {
      Sicupira, Caju e Alex Mineiro. O clube conta com diversas 
      lendas que marcaram épocas diferentes do Furacão.</p>
     
+     botoes.forEach(function (botao) {
+    let curtiu = false;
+    botao.addEventListener("click", botaoClicado);
+    function botaoClicado() {
+        console.log("fui clicado");
+        let texto = botao.querySelector("span");
+        texto.textContent++;
+    }
+})
      <hr style="border: 0; border-top: 1px solid #000000; margin: 30px auto; max-width: 90%; opacity: 0.5;">
 
      <h7>Os dois times ja competiram entre si?</h7>
@@ -84,6 +93,11 @@ vice-liderança do campeonato à frente do  thletico-PR. O líder geral da compe
 <hr style="border: 0; border-top: 1px solid #000000; margin: 30px auto; max-width: 90%; opacity: 0.5;">
 
 <title>mascotes</title>
+
+ <img src="" alt="">
+
+<h9>Urubu</h9>
+
 <p>🦅 O Urubu do Flamengo: mascote definitivo do Clube de Regatas
      do Flamengo surgiu a partir da subversão de uma ofensa racista </p>
 <p> De ofensa a orgulho: Na década de 1960, torcidas rivais usavam o termo "urubu" de forma racista e pejorativa para provocar
@@ -94,6 +108,8 @@ vice-liderança do campeonato à frente do  thletico-PR. O líder geral da compe
     animal na hora.O que ele representa: O Urubu substituiu o antigo mascote(o marinheiro Popeye) e
     transformou o preconceito em um dos maiores símbolos de orgulho, raça e identidade do futebol mundial.</p>
 
+    <h10>Fura-cão</h10>
+
     <p>Mascote Oficial: O Fura-CãoO mascote do Athletico Paranaense une a tradição do apelido do clube à alegria das novas gerações 
         de torcedores.
         O surgimento: O personagem nasceu oficialmente na grande reformulação de marca do clube, como o líder da
@@ -102,6 +118,6 @@ vice-liderança do campeonato à frente do  thletico-PR. O líder geral da compe
           O que ele representa: Deixando para trás
            o antigo e elitista mascote "Cartola", o Fura-Cão — um cãozinho enérgico com as cores
          do clube — trouxe uma identidade mais jovem, carismática e povão para animar a caldeira da Arena da Baixada.</p>
-
+ 
     </main>
     </body>
